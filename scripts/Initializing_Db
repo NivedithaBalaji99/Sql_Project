@@ -1,5 +1,5 @@
 #Script : Creates new database called DataWarehouse
 
-CREATE DATABASE DataWarehouse;
+CREATE DATABASE IF NOT EXISTS DataWarehouse;
 GO
 USE DataWarehouse;
