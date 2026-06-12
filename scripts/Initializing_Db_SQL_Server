@@ -1,0 +1,28 @@
+/*
+
+==================================================================================
+Create Database and schemas
+==================================================================================
+
+Script Description : This script creates a db called 'DataWarehouse'.
+Then creates schemas called 'bronze','silver','gold' within the database
+
+*/
+
+-- To create the data warehouse database
+CREATE DATABASE DataWarehouse;
+GO
+
+USE DataWarehouse;
+GO
+
+-- To create schemas 
+
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
+GO
+
+
