@@ -1,3 +1,13 @@
+/*
+=============================================================
+Stored Procedure for loading the bronze layer
+=============================================================
+Script Description :
+Loads data into bronze layer from external csv file sources.
+Uses Bulk Insert command to load the data from csv.
+*/
+
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze as
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME, @load_start_time DATETIME, @load_end_time DATETIME;
